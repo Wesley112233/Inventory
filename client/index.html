@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Starter Template</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">MyApp</a>
+      <nav class="main-nav" id="mainNav">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Build fast, build neat</h1>
+          <p class="lead">A minimal starting template for HTML, CSS and a touch of JS — great to convert into React later.</p>
+          <div class="hero-actions">
+            <a href="#features" class="btn">Explore</a>
+            <button id="demoBtn" class="btn ghost">Demo action</button>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <h3>Quick Preview</h3>
+          <p id="demoText">Click "Demo action" to see JS in action.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <div class="container">
+        <h2 class="section-title">Features</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Responsive</h3>
+            <p>Works across mobile, tablet and desktop using CSS grid & flexbox.</p>
+          </article>
+
+          <article class="card">
+            <h3>Component-ready</h3>
+            <p>Each section is easy to copy into an isolated component for React.</p>
+          </article>
+
+          <article class="card">
+            <h3>Accessible</h3>
+            <p>Simple semantics, keyboard-friendly menu, and readable contrast.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <p>Use this template to learn layout basics or to bootstrap the frontend of a full-stack project.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> MyApp · Built with ❤️</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
